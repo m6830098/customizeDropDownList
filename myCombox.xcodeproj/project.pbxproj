@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87FC74FD1917375500593701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC74FC1917375500593701 /* Foundation.framework */; };
+		87FC74FF1917375500593701 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC74FE1917375500593701 /* CoreGraphics.framework */; };
+		87FC75011917375500593701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC75001917375500593701 /* UIKit.framework */; };
+		87FC75071917375500593701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FC75051917375500593701 /* InfoPlist.strings */; };
+		87FC75091917375500593701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FC75081917375500593701 /* main.m */; };
+		87FC750D1917375500593701 /* myComboxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FC750C1917375500593701 /* myComboxAppDelegate.m */; };
+		87FC750F1917375500593701 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FC750E1917375500593701 /* Images.xcassets */; };
+		87FC75161917375500593701 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC75151917375500593701 /* XCTest.framework */; };
+		87FC75171917375500593701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC74FC1917375500593701 /* Foundation.framework */; };
+		87FC75181917375500593701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87FC75001917375500593701 /* UIKit.framework */; };
+		87FC75201917375500593701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FC751E1917375500593701 /* InfoPlist.strings */; };
+		87FC75221917375500593701 /* myComboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FC75211917375500593701 /* myComboxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87FC75191917375500593701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87FC74F11917375500593701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FC74F81917375500593701;
+			remoteInfo = myCombox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87FC74F91917375500593701 /* myCombox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCombox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FC74FC1917375500593701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87FC74FE1917375500593701 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87FC75001917375500593701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87FC75041917375500593701 /* myCombox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myCombox-Info.plist"; sourceTree = "<group>"; };
+		87FC75061917375500593701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FC75081917375500593701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FC750A1917375500593701 /* myCombox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "myCombox-Prefix.pch"; sourceTree = "<group>"; };
+		87FC750B1917375500593701 /* myComboxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myComboxAppDelegate.h; sourceTree = "<group>"; };
+		87FC750C1917375500593701 /* myComboxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myComboxAppDelegate.m; sourceTree = "<group>"; };
+		87FC750E1917375500593701 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87FC75141917375500593701 /* myComboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myComboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FC75151917375500593701 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87FC751D1917375500593701 /* myComboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myComboxTests-Info.plist"; sourceTree = "<group>"; };
+		87FC751F1917375500593701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87FC75211917375500593701 /* myComboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myComboxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FC74F61917375500593701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC74FF1917375500593701 /* CoreGraphics.framework in Frameworks */,
+				87FC75011917375500593701 /* UIKit.framework in Frameworks */,
+				87FC74FD1917375500593701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FC75111917375500593701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC75161917375500593701 /* XCTest.framework in Frameworks */,
+				87FC75181917375500593701 /* UIKit.framework in Frameworks */,
+				87FC75171917375500593701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87FC74F01917375500593701 = {
+			isa = PBXGroup;
+			children = (
+				87FC75021917375500593701 /* myCombox */,
+				87FC751B1917375500593701 /* myComboxTests */,
+				87FC74FB1917375500593701 /* Frameworks */,
+				87FC74FA1917375500593701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87FC74FA1917375500593701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FC74F91917375500593701 /* myCombox.app */,
+				87FC75141917375500593701 /* myComboxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FC74FB1917375500593701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87FC74FC1917375500593701 /* Foundation.framework */,
+				87FC74FE1917375500593701 /* CoreGraphics.framework */,
+				87FC75001917375500593701 /* UIKit.framework */,
+				87FC75151917375500593701 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FC75021917375500593701 /* myCombox */ = {
+			isa = PBXGroup;
+			children = (
+				87FC750B1917375500593701 /* myComboxAppDelegate.h */,
+				87FC750C1917375500593701 /* myComboxAppDelegate.m */,
+				87FC750E1917375500593701 /* Images.xcassets */,
+				87FC75031917375500593701 /* Supporting Files */,
+			);
+			path = myCombox;
+			sourceTree = "<group>";
+		};
+		87FC75031917375500593701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FC75041917375500593701 /* myCombox-Info.plist */,
+				87FC75051917375500593701 /* InfoPlist.strings */,
+				87FC75081917375500593701 /* main.m */,
+				87FC750A1917375500593701 /* myCombox-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FC751B1917375500593701 /* myComboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				87FC75211917375500593701 /* myComboxTests.m */,
+				87FC751C1917375500593701 /* Supporting Files */,
+			);
+			path = myComboxTests;
+			sourceTree = "<group>";
+		};
+		87FC751C1917375500593701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FC751D1917375500593701 /* myComboxTests-Info.plist */,
+				87FC751E1917375500593701 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FC74F81917375500593701 /* myCombox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FC75251917375500593701 /* Build configuration list for PBXNativeTarget "myCombox" */;
+			buildPhases = (
+				87FC74F51917375500593701 /* Sources */,
+				87FC74F61917375500593701 /* Frameworks */,
+				87FC74F71917375500593701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myCombox;
+			productName = myCombox;
+			productReference = 87FC74F91917375500593701 /* myCombox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87FC75131917375500593701 /* myComboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FC75281917375500593701 /* Build configuration list for PBXNativeTarget "myComboxTests" */;
+			buildPhases = (
+				87FC75101917375500593701 /* Sources */,
+				87FC75111917375500593701 /* Frameworks */,
+				87FC75121917375500593701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87FC751A1917375500593701 /* PBXTargetDependency */,
+			);
+			name = myComboxTests;
+			productName = myComboxTests;
+			productReference = 87FC75141917375500593701 /* myComboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FC74F11917375500593701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = myCombox;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ChenHao;
+				TargetAttributes = {
+					87FC75131917375500593701 = {
+						TestTargetID = 87FC74F81917375500593701;
+					};
+				};
+			};
+			buildConfigurationList = 87FC74F41917375500593701 /* Build configuration list for PBXProject "myCombox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87FC74F01917375500593701;
+			productRefGroup = 87FC74FA1917375500593701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FC74F81917375500593701 /* myCombox */,
+				87FC75131917375500593701 /* myComboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FC74F71917375500593701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC75071917375500593701 /* InfoPlist.strings in Resources */,
+				87FC750F1917375500593701 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FC75121917375500593701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC75201917375500593701 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FC74F51917375500593701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC750D1917375500593701 /* myComboxAppDelegate.m in Sources */,
+				87FC75091917375500593701 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87FC75101917375500593701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FC75221917375500593701 /* myComboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87FC751A1917375500593701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87FC74F81917375500593701 /* myCombox */;
+			targetProxy = 87FC75191917375500593701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87FC75051917375500593701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FC75061917375500593701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87FC751E1917375500593701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FC751F1917375500593701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87FC75231917375500593701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		87FC75241917375500593701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FC75261917375500593701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myCombox/myCombox-Prefix.pch";
+				INFOPLIST_FILE = "myCombox/myCombox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87FC75271917375500593701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myCombox/myCombox-Prefix.pch";
+				INFOPLIST_FILE = "myCombox/myCombox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87FC75291917375500593701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myCombox.app/myCombox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myCombox/myCombox-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "myComboxTests/myComboxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87FC752A1917375500593701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/myCombox.app/myCombox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "myCombox/myCombox-Prefix.pch";
+				INFOPLIST_FILE = "myComboxTests/myComboxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FC74F41917375500593701 /* Build configuration list for PBXProject "myCombox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FC75231917375500593701 /* Debug */,
+				87FC75241917375500593701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FC75251917375500593701 /* Build configuration list for PBXNativeTarget "myCombox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FC75261917375500593701 /* Debug */,
+				87FC75271917375500593701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87FC75281917375500593701 /* Build configuration list for PBXNativeTarget "myComboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FC75291917375500593701 /* Debug */,
+				87FC752A1917375500593701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FC74F11917375500593701 /* Project object */;
+}
